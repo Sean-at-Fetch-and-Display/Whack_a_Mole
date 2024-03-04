@@ -46,13 +46,6 @@
   justify-content: center;
 }
 
-/*
-.control_panel,
-.score_board,
-button {
-}
-*/
-
 .score_board {
   border: 1px solid #bdf15d;
   border-radius: 8px;
