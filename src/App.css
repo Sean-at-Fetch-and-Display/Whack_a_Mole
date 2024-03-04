@@ -1,0 +1,75 @@
+.mole_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #bdf15d;
+  cursor: none;
+}
+
+/* Prevent the images from being dragged and highlighted */
+.mole_grid img {
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#cursor {
+  cursor: url("./assets/hammerEdit.png") 30 70, default !important;
+  top: -50px;
+  left: -50px;
+  /*
+  width: 60px;
+  height: 60px;
+  z-index: 999;
+  /*background-color: #bdf15d;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+
+  ,
+  */
+}
+
+#cursor_click {
+  cursor: url("./assets/hammerDown V3.png") 30 70, default !important;
+}
+
+/*
+width: 60px;
+height: 60px;
+z-index: 999;
+/*background-color: #bdf15d;
+border: 1px solid black;
+border-radius: 50%;*/
+/*position: absolute;
+
+
+pointer-events: none;
+*/
+
+/*
+.rounded {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.pointed {
+  width: 7px;
+  height: 7px;
+  background-color: white;
+  border-radius: 50%;
+}
+*/
+
+/*
+.cursorV2 {
+  cursor: url("./assets/hammerEdit.png"), default !important;
+  width: 7px;
+  height: 7px;
+  background-color: white;
+  border-radius: 50%;
+}
+*/
